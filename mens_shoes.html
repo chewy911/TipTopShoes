@@ -3,13 +3,34 @@
 <head>
   <title>Men's Shoes - TopTip Shoes</title>
   <link rel="stylesheet" type="text/css" href="styles.css">
+  <style>
+    @import url('https://fonts.googleapis.com/css?family=Calibri:400,700&display=swap');
+  </style>
+  <style>
+    .carousel {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+  
+    .carousel .product-image {
+      width: 250px;
+      height: auto;
+      object-fit: cover;
+      cursor: pointer;
+    }
+  
+    .carousel .product-image:hover {
+      transform: scale(1.1);
+    }
+  </style>
 </head>
 <body>
   <header>
     <div class="header-top">
       <div class="logo">
         <a href="index.html">
-          <img src="Images/TipToe_Soles_Logo_colour.png" alt="Brand Logo">
+          <img src="Images/TipToe Soles_Logo_colour.png" alt="Brand Logo">
         </a>
       </div>
       <div class="search-bar">
@@ -52,31 +73,49 @@
     <h1>Men's Shoes</h1>
     
     <div class="product">
-      <a href="#">
-        <img src="Images/Gary Tan.jpg" alt="Gary" class="product-image">
-        <div class="product-info">
-          <h2>Gary</h2>
-          <p>Look good and feel great in these comfortable sneakers that you won't want to take off. The Gary shoes feature soft leather uppers, breathable mesh lining, and a removable footbed with soft mesh sock lining for all-day comfort. These shoes are designed with a contoured footbed and additional heel padding to provide maximum support. They are also orthotic friendly, allowing you to customize the fit to your specific needs. Choose the Gary shoes for style and comfort.</p>
-          <div class="price-tag">
-            <span>$79.00</span>
-          </div>
-          <button class="add-to-cart">Add to Cart</button>
+      <div class="carousel">
+        <img src="Images/Gary_Tan.jpg" alt="Gary 1" class="product-image">
+        <img src="Images/Gary_Black.jpg" alt="Gary 2" class="product-image">
+      </div>
+      <div class="product-info">
+        <h2>Gary - Tan/Black</h2>
+        <ul>
+          <li>Look good and feel great in these comfortable sneakers that you won't want to take off.</li>
+          <li>Soft leather uppers provide a stylish look.</li>
+          <li>Breathable mesh lining ensures optimal airflow for all-day comfort.</li>
+          <li>Removable footbed with soft mesh sock lining for added cushioning and support.</li>
+          <li>Contoured footbed with additional heel padding offers maximum support.</li>
+          <li>Orthotic friendly, allowing you to customize the fit to your specific needs.</li>
+        </ul>
+        <div class="price-tag">
+          <span>$79.00</span>
         </div>
-      </a>
+        <button class="add-to-cart">Add to Cart</button>
+      </div>
     </div>
 
     <div class="product">
-      <a href="#">
-        <img src="Images/Work and Walk Chesnut.jpg" alt="Work and Walk" class="product-image">
-        <div class="product-info">
-          <h2>Work and Walk</h2>
-          <p>Elevate your style and stay comfortable all day with the Work and Walk boots. These lace-up ankle boots are designed with a durable leather upper and a padded collar for a soft and secure fit. The scuff, stain, and water-resistant exterior ensures these boots can withstand the demands of everyday wear. The breathable and soft foam-backed mesh lining provides excellent ventilation and comfort. The footbed is designed to hug your heel and offer extra support. With a removable insole, you can easily customize the fit to accommodate your own orthotics. The Work and Walk boots also feature a dual fit design, allowing you to remove the insole for a wider fit. Choose the Work and Walk boots for style, durability, and all-day comfort.</p>
-          <div class="price-tag">
-            <span>$85.00</span>
-          </div>
-          <button class="add-to-cart">Add to Cart</button>
+      <div class="carousel">
+        <img src="Images/Work_and_Walk_Chesnut.jpg" alt="Work and Walk" class="product-image">
+      </div>
+      <div class="product-info">
+        <h2>Work and Walk</h2>
+        <ul>
+          <li>Elevate your style and stay comfortable all day with the Work and Walk boots.</li>
+          <li>Hiking-inspired lace-up ankle boots for a trendy look.</li>
+          <li>Durable leather upper provides long-lasting wear.</li>
+          <li>Padded collar is super soft on the heel for added comfort.</li>
+          <li>Scuff, stain, and water-resistant exterior ensures durability in various conditions.</li>
+          <li>Breathable and soft foam-backed mesh lining offers excellent ventilation.</li>
+          <li>Footbed hugs your heel for extra support during long walks or hikes.</li>
+          <li>Removable insole allows you to customize the fit with your own orthotics.</li>
+          <li>Dual Fit design for a wider fit option by removing the insole.</li>
+        </ul>
+        <div class="price-tag">
+          <span>$85.00</span>
         </div>
-      </a>
+        <button class="add-to-cart">Add to Cart</button>
+      </div>
     </div>
 
   </div>
@@ -88,8 +127,8 @@
       <li><a href="deliverypolicy.html">Delivery Policy</a></li>
     </ul>
     <div class="footer-text">
-      <p>&copy; 2023 TipToe Soles. All rights reserved. Unauthorized use and/or duplication of this material without express and written permission from TipToe Soles is strictly prohibited. All trademarks, logos, and brands mentioned on this website are the property of their respective owners.</p>
     </div>
   </footer>
+
 </body>
 </html>
