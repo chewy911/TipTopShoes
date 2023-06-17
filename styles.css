@@ -126,6 +126,7 @@ footer {
   color: #fff;
   padding: 10px 20px;
   text-align: center;
+  font-size: 14px;
 }
 
 .footer-menu {
@@ -139,9 +140,30 @@ footer {
   margin-right: 10px;
 }
 
+.footer-menu li:last-child {
+  margin-right: 0;
+}
+
 .footer-menu li a {
   color: #fff;
   text-decoration: none;
+}
+
+.footer-text {
+  color: #777;
+}
+
+@media screen and (max-width: 768px) {
+  .footer-menu {
+    display: block;
+    text-align: center;
+  }
+
+  .footer-menu li {
+    display: block;
+    margin: 0;
+    margin-bottom: 5px;
+  }
 }
 
 /* Adjustments for slide content */
